@@ -1,16 +1,7 @@
-const stringSearcher = require("string-search");
 const utf8 = require("utf8");
 const quotedPrintable = require("quoted-printable");
-var base64 = require("base-64");
-
-// Helper function that finds string
-const getStr = async (file, lookUp, splitAt) => {
-  const arr = await stringSearcher.find(file, lookUp);
-
-  let string = arr[0].text;
-  string = string.split(splitAt);
-  return string[1].toString().trim();
-};
+const base64 = require("base-64");
+const { getStr, getBody } = require("./helpers");
 
 class ParseEmail {
   constructor(email) {
@@ -39,26 +30,26 @@ class ParseEmail {
 
   async _body() {
     // Search for the first empty line which is where the body starts.
-    let pos = this.email.search(/\r\n\r\ngit a/g);
-    let body = this.email.substr(pos + 4);
-    let { ContentTransferEncoding } = this.parsedData.headers;
-
+    let body = getBody(this.email);
+    const { ContentTransferEncoding } = this.parsedData.headers;
+    // Decode body by its transfer encoding. 
     switch (ContentTransferEncoding) {
       case "quoted-printable":
         body = quotedPrintable.decode(body);
         break;
       case "base64":
-        body = body.trim()
+        body = utf8.decode(base64.decode(body));
         break;
       default:
-        body = "Something went wrong.";
+        body = "Format currently not supported";
         break;
     }
 
     this.parsedData.body = body;
   }
 
-  async getParsedJSON() {
+  // Generates object with all data extrated from email. 
+  async getParsedObj() {
     await this._headers();
     await this._body();
     return this.parsedData;

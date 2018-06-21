@@ -15,7 +15,7 @@ function loadEmailFile(file) {
 // Initial function. 
 
 async function init() {
-    const loadedEmail = await loadEmailFile('./testEmails/simpleEmail.txt'); 
+    const loadedEmail = await loadEmailFile('./testEmails/base64Email.txt'); 
     const parsedEmail = new EmailParser(loadedEmail); 
     console.log(await parsedEmail.getParsedJSON())
     
