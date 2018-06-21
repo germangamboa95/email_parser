@@ -41,7 +41,7 @@ dkim-signature: v=1; a=rsa-sha1; d=mail.cybercoders.com; s=CCSMTP2; c=relaxed/re
 Received: from CC-APPS02 (Unknown [172.28.16.15]) by ccsmtpB.cybercoders.com with ESMTP ; Tue, 19 Jun 2018 08:24:48 -0700
 Message-ID: <B3B22858-AA74-40F0-B0D2-D4F42CADD2D7@ccsmtpB.cybercoders.com>
 MIME-Version: 1.0
-From: Brenna Boies <brenna.boies@mail.cybercoders.com>
+From: Brenna Boies <brenna.boies@mail.com>
 To: German Gamboa Gonzalez <germangamboa95@gmail.com>
 Date: 19 Jun 2018 08:24:57 -0700
 Subject: Exciting new opportunity

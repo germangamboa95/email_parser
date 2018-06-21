@@ -40,7 +40,7 @@ Received: from FISTO.zaxbys.com (10.252.0.192) by Fisto.zaxbys.com
 Received: from FISTO.zaxbys.com ([::1]) by Fisto.zaxbys.com ([::1]) with mapi
  id 15.00.1178.000; Thu, 29 Mar 2018 22:42:54 -0400
 From: Kissimmee 001074 <Kissimmee001074@Zaxbys.com>
-To: "Joiner, JJ" <jjoiner@Zaxbys.com>
+To: "Joiner, JJ" <jjoiner@email.com>
 CC: "germangamboa95@gmail.com" <germangamboa95@gmail.com>
 Subject: Manager Log PM 3/29/2018
 Thread-Topic: Manager Log PM 3/29/2018
