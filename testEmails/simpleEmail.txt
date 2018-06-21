@@ -1,0 +1,75 @@
+Delivered-To: germangamboa95@gmail.com
+Received: by 10.31.164.202 with SMTP id n193csp2432842vke;
+        Thu, 29 Mar 2018 19:43:03 -0700 (PDT)
+X-Google-Smtp-Source: AIpwx48UrFE1ZcNcg+ou3y0Hst6K/ABnOd++9injMQ+vq17h8YM1xJytBwe6ecgdqdojZ9uZ+lqj
+X-Received: by 10.13.232.131 with SMTP id r125mr6384230ywe.7.1522377783234;
+        Thu, 29 Mar 2018 19:43:03 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1522377783; cv=none;
+        d=google.com; s=arc-20160816;
+        b=iqh+4DnlRFasvQfCSuTEX10cyqp/ONHNfvZRhIWb4L5PaSHeAY2O5ie9AOXgB/yZd9
+         cX+vgpOxh7ZOcjZKYCTu4TwMRk/l7Vvx2yzGlZCpeGatKbf7R6qm72DQgXxkymAGUPjD
+         31Al+rBkbDcNlLMonOouW4zO/7TOd79VFkeUIVkNRzKbpLl8B+N600A8KzHHKFnaBowN
+         imLd+KZH3GLxghm2SSvoGKujm0mW5m/9sHpH8DnrCv6Zn2zPX+9KDR51/CNYw0Ppwjvu
+         2yWB3gMfGQr3V+TTzGvshmuo45xmEuF/Qgaob0R3GuJ9j+Nsx/fvd4dOIISxliuHRj6o
+         qVDg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:content-transfer-encoding:content-language
+         :accept-language:message-id:date:thread-index:thread-topic:subject
+         :cc:to:from:arc-authentication-results;
+        bh=GuvkUyhhgTC4sF8nrV2ztKuZr3QdcY88IpKqRiX/R+A=;
+        b=jWcli2O54e1T0Bpkosvr28kNdfiJyrxIbL69PGMoVn3f4AJ6NDQaevMj6B+WmlNDH/
+         OuXvvhp9yhs9swbGzgk84GvsQTtWyFii2bfR7Vm2/TA7DAk0Njae24Cr4lAl1sYZ+RDy
+         Yio6uIIoS3RW9eDRMnNak11cQl0eUChjXidfm5oyPafEfI+Ythr4k3Z97u5OqmvMjdyV
+         rbLXPo9d41hl/mn1uDeI3M50X066LTM0garGAY55t60AQx6S3jO9cgCExWmvtQuQfDHx
+         +yPN82XoTB94EaAcxIaFn9isUKbVP7UIpSEsXRKQFGQARyJbTYAp1p3XWh3Gm/slVkAr
+         P/7A==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of kissimmee001074@zaxbys.com designates 69.55.166.215 as permitted sender) smtp.mailfrom=Kissimmee001074@zaxbys.com
+Return-Path: <Kissimmee001074@zaxbys.com>
+Received: from fisto.zaxbys.com (fisto.zaxbys.com. [69.55.166.215])
+        by mx.google.com with ESMTPS id y1si1592898ywf.73.2018.03.29.19.43.02
+        for <germangamboa95@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 29 Mar 2018 19:43:03 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of kissimmee001074@zaxbys.com designates 69.55.166.215 as permitted sender) client-ip=69.55.166.215;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of kissimmee001074@zaxbys.com designates 69.55.166.215 as permitted sender) smtp.mailfrom=Kissimmee001074@zaxbys.com
+Received: from FISTO.zaxbys.com (10.252.0.192) by Fisto.zaxbys.com
+ (10.252.0.192) with Microsoft SMTP Server (TLS) id 15.0.1178.4; Thu, 29 Mar
+ 2018 22:42:54 -0400
+Received: from FISTO.zaxbys.com ([::1]) by Fisto.zaxbys.com ([::1]) with mapi
+ id 15.00.1178.000; Thu, 29 Mar 2018 22:42:54 -0400
+From: Kissimmee 001074 <Kissimmee001074@Zaxbys.com>
+To: "Joiner, JJ" <jjoiner@Zaxbys.com>
+CC: "germangamboa95@gmail.com" <germangamboa95@gmail.com>
+Subject: Manager Log PM 3/29/2018
+Thread-Topic: Manager Log PM 3/29/2018
+Thread-Index: AQHTx8jSwQKQf9Fpq0Oyv7Ei2wpQWA==
+Date: Fri, 30 Mar 2018 02:42:53 +0000
+Message-ID: <1522377779390.1575@Zaxbys.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-exchange-transport-fromentityheader: Hosted
+x-originating-ip: [76.4.113.12]
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Today was a pretty nice day. Sean wasn't able to come in since he was in an=
+ accident. I was able to call Shakira in at 6 which really helped out. I ha=
+d Steven run dine side and he did aight... He needed help with some orders =
+and when he got backed up but other than that he did well. Lester helped hi=
+m on the line when he got backed up which was great to see Lester take char=
+ge but I did tell him not to take over the line but just to help him. It wa=
+s an On and Off kind of night. We got a late pop of traditional wings and s=
+ince we were doing cook to order we didn't have many wings on hand. We also=
+ had a couple of costumers come 5 mins before close and ask for all their f=
+ood fresh which had them sitting at the window for a while.
+
+
+Jordan Molina
+Assistant Manager
+Cookies inc
+
